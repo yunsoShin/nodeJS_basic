@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_basic",
+  "version": "1.0.0",
+  "description": "Complete Node.js Guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunsoShin/nodeJS_basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yunsoShin/nodeJS_basic/issues"
+  },
+  "homepage": "https://github.com/yunsoShin/nodeJS_basic#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
