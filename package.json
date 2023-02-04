@@ -1,23 +1,19 @@
 {
-  "name": "nodejs_basic",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
   "description": "Complete Node.js Guide",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yunsoShin/nodeJS_basic.git"
-  },
-  "author": "",
+  "author": "Maximilian Schwarzmüller",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yunsoShin/nodeJS_basic/issues"
-  },
-  "homepage": "https://github.com/yunsoShin/nodeJS_basic#readme",
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
   }
 }
